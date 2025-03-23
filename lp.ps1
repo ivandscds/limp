@@ -1,4 +1,4 @@
-cleanmgr /sageset:1 & cleanmgr /sagerun:1
+cmd /c "cleanmgr /sageset:1 & cleanmgr /sagerun:1"
 Remove-Item -Path "$env:TEMP\*" -Recurse -Force -ErrorAction SilentlyContinue
 Remove-Item -Path "C:\Windows\Temp\*" -Recurse -Force -ErrorAction SilentlyContinue
 Remove-Item -Path "C:\Windows\Prefetch\*" -Force -ErrorAction SilentlyContinue
